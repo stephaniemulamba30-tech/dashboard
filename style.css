@@ -12,8 +12,10 @@ body {
 .container {
     position: relative;
     /* background-color: red; */
+    /* padding: 20px; */
     width: 850px;
-    height: 550px;
+    height: 600px;
+    /* height: fit-content; */
     margin: 50px auto;
 
     display: flex;
@@ -277,20 +279,18 @@ button[type="submit"] {
     width: 100%;
     box-sizing: border-box;
     margin-top: 5px;
-    background-color: #ob4f9c;
+    background-color: #232323;
     color: white;
     border: none;
-    border radious: 5px;
+    border-radius: 5px;
     padding: 12px;
 }
 
 
 .parent {
-    .main .form height: auto;
-
-
+    height: auto;
 }
 
 .container {
-    min-height: 100vh;
+    /* min-height: 100vh; */
 }
