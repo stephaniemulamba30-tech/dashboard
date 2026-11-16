@@ -12,8 +12,10 @@ body {
 .container {
     position: relative;
     /* background-color: red; */
+    /* padding: 20px; */
     width: 850px;
-    height: 550px;
+    height: 600px;
+    /* height: fit-content; */
     margin: 50px auto;
 
     display: flex;
@@ -257,4 +259,38 @@ span.icon {
     border-radius: 5px;
     border: 2px solid #ccc;
     outline: none;
+}
+
+img {
+    object-fit: cover;
+}
+
+button[type="submit"] {
+    max-width: 100%;
+}
+
+.form {
+    padding: 20px 20px 10px;
+    box-sizing: border-box;
+
+}
+
+.form button {
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 5px;
+    background-color: #232323;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+}
+
+
+.parent {
+    height: auto;
+}
+
+.container {
+    /* min-height: 100vh; */
 }
